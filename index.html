@@ -10,9 +10,9 @@
 <script src="js/index.js"></script>
 <script src="js/jquery.SuperSlide.2.1.1.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<body>
+<body class="overflow">
 <a name="a1"></a>
-<div class="headr">
+<div class="header">
 	<div class="top">
 		<div class="box">
 			<a href="" class="collect">收藏本站</a>
@@ -23,14 +23,7 @@
 		<div class="menu fl" id="js_menu1">
 			<ul class="nav">
 				<li class="nav_li cur"><a href="index.html" >首页</a></li>
-				<li class="nav_li "><a href="about.html" >公司介绍</a>
-					<ul class="tool none">
-						<li ><a href="">软件工程</a></li>
-						<li ><a href="">互联网应用开发</a></li>            
-						<li ><a href="">智慧城市</a></li>            
-						<li ><a href="">软件产品</a></li>                        
-					</ul>  
-				</li>
+				<li class="nav_li "><a href="about.html" >公司介绍</a></li>
 				<li class="nav_li "><a href="product.html" >代理产品</a>
 					<ul class="tool none">
 						<li ><a href="">H3C</a></li>
@@ -41,7 +34,14 @@
 						<li ><a href="">EC</a></li>                        
 					</ul>
 				</li>
-				<li class="nav_li "><a href="software.html" >软件工程</a></li>
+				<li class="nav_li "><a href="software.html" >软件工程</a>
+					<ul class="tool none">
+						<li ><a href="">软件工程</a></li>
+						<li ><a href="">互联网应用开发</a></li>            
+						<li ><a href="">智慧城市</a></li>            
+						<li ><a href="">软件产品</a></li>                        
+					</ul> 
+				</li>
 				<li class="nav_li "><a href="solution.html" >解决方案</a>
 					<ul class="tool none tool1">
 						<li ><a href="">汇川IPMP集成产品管理平台</a></li>
@@ -61,13 +61,13 @@
 	<div class="first number">
 		<div class="picbox">
 			<ul class="pic">
-				<li style="background:url(images/banner1.jpg) no-repeat center 0 #eee;display:block;">
+				<li style="background:url(images/banner1.jpg) no-repeat center 0;display:block;background-size:cover;">
 					<a href=".html"></a>
 				</li>
-				<li style="background:url(images/banner2.jpg) no-repeat center 0 #f2f2f2;">
+				<li style="background:url(images/banner2.jpg) no-repeat center 0;background-size:cover;">
 					<a href=".html"></a>
 				</li>
-				<li style="background:url(images/banner3.jpg) no-repeat center 0 #edeef2;">
+				<li style="background:url(images/banner3.jpg) no-repeat center 0;background-size:cover;">
 					<a href=".html"></a>
 				</li>
 			</ul>
@@ -110,7 +110,7 @@
 					<div class="secondtxt">创业团队</div>
 				</a>
 				<a href="" class="p6">
-					<div class="secondimg"><img src="images/p6-2.png" alt=""></div>
+					<div class="secondimg pmtp3"><img src="images/p6-2.png" alt=""></div>
 					<div class="secondtxt">软件工程</div>
 				</a>
 			</div>
@@ -124,9 +124,15 @@
 				<li><a href="javascript:(0);" class="bg3"></a></li>
 			</ul>
 			<div class="tab_box">
-				<div class=""><img src="images/r1.jpg" alt=""></div>
-				<div class="hide"><img src="images/r2.jpg" alt=""></div>
-				<div class="hide"><img src="images/r3.jpg" alt=""></div>
+				<div class=" tabimg" style="background:url(images/r1.jpg) no-repeat center 0;background-size:cover;">
+					<!-- <img src="images/r1.jpg" alt=""> -->
+				</div>
+				<div class="hide tabimg" style="background:url(images/r2.jpg) no-repeat center 0;background-size:cover;">
+					<!-- <img src="images/r2.jpg" alt=""> -->
+				</div>
+				<div class="hide tabimg" style="background:url(images/r3.jpg) no-repeat center 0;background-size:cover;">
+					<!-- <img src="images/r3.jpg" alt=""> -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -226,7 +232,7 @@
 	<div class="footerbox number">
 		<div class="icon"></div>
 		<div class="box">
-			<div class="btop"><a href="#" date-target="1"><img src="images/backtop.png" alt=""></a></div>
+			<div class="btop"><a href="javascript:toTop();"><img src="images/backtop.png" alt=""></a></div>
 			<ul class="footnav">
 				<li><a href="">联系我们</a></li>
 				<li><a href="">关于我们</a></li>
@@ -251,6 +257,14 @@
 	</ul>
 </div>
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/common.js"></script> 
+<script src="js/common.js"></script>
+<script>
+	function toTop()
+	{
+		$(".nav_p1").addClass("active").siblings().removeClass("active");
+		$(".main").addClass("active_p1").removeClass("active_p7")
+	}
+</script>
+
 </body>
 </html>

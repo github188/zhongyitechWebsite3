@@ -5,6 +5,8 @@ $(document).ready(function(){
 		var index = $tab_li.index(this);
 		$('div.tab_box > div').eq(index).show().siblings().hide();
 	});
-	
+	$(".backtop").click(function(){
+		$('body').animate({scrollTop: 0},600);
+	});
 });
 //mouseover“∆…œ»•
