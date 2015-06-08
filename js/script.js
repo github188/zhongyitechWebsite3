@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$('div.tab_box > div').eq(index).show().siblings().hide();
 	});
 	$(".backtop").click(function(){
-		$('body').animate({scrollTop: 0},600);
+		$('html,body').animate({scrollTop: 0},600);
 	});
 });
 //mouseover“∆…œ»•

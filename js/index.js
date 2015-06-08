@@ -71,7 +71,7 @@ $(function(){
                 }else{
                     isIeApply(curPage)
                 }
-            }else{
+           }else{
                 manageClass();
             }
         }
