@@ -111,19 +111,19 @@ position:absolute;bottom:10px;left:152px;}
 #tab .tab_menu li{display:inline-block;width:246px;height:149px;cursor:pointer;_display:block;_float:left;}
 #tab .tab_menu li a{display:block;width:246px;height:149px;}
 #tab .tab_box{width:100%;overflow:hidden;}
-#tab .tab_menu .selected .bg1{background:url(../images/r1-1.png) no-repeat 15px 12px;}
+#tab .tab_menu .selected .bg1{background:url(../images/r3-1.png) no-repeat 15px 12px;}
 #tab .tab_menu .selected .bg2{background:url(../images/r2-1.png) no-repeat 15px 12px;}
-#tab .tab_menu .selected .bg3{background:url(../images/r3-1.png) no-repeat 15px 12px;}
-#tab .tab_menu .selected .bg1:hover{background:url(../images/r1-3.png) no-repeat 0;}
+#tab .tab_menu .selected .bg3{background:url(../images/r1-1.png) no-repeat 15px 12px;}
+#tab .tab_menu .selected .bg1:hover{background:url(../images/r3-3.png) no-repeat 0;}
 #tab .tab_menu .selected .bg2:hover{background:url(../images/r2-3.png) no-repeat 0;}
-#tab .tab_menu .selected .bg3:hover{background:url(../images/r3-3.png) no-repeat 0;}
+#tab .tab_menu .selected .bg3:hover{background:url(../images/r1-3.png) no-repeat 0;}
 .hide{display:none;}
-.bg1{background:url(../images/r1-2.png) no-repeat 15px 12px;}
-.bg1:hover{background:url(../images/r1-3.png) no-repeat 0 0;}
+.bg1{background:url(../images/r3-2.png) no-repeat 15px 12px;}
+.bg1:hover{background:url(../images/r3-3.png) no-repeat 0 0;}
 .bg2{background:url(../images/r2-2.png) no-repeat 15px 12px;}
 .bg2:hover{background:url(../images/r2-3.png) no-repeat 0 0;}
-.bg3{background:url(../images/r3-2.png) no-repeat 15px 12px;}
-.bg3:hover{background:url(../images/r3-3.png) no-repeat 0 0px;}
+.bg3{background:url(../images/r1-2.png) no-repeat 15px 12px;}
+.bg3:hover{background:url(../images/r1-3.png) no-repeat 0 0px;}
 .tabimg{width:100%;overflow:hidden;height:100%;position:absolute;left:0;top:0;}
 /* four */
 .fourth{position:relative;background:url(../images/fourbg.jpg) no-repeat center top;background-size:cover;width:100%; height:100%;}
@@ -164,6 +164,8 @@ background:url(../images/icon4.png) no-repeat left center;}
 .sixtitle{width:100%;overflow:hidden;margin-top:90px;text-align:center;}
 .sixtitle dt{color:#eab411;font-size:24px;}
 .sixtitle dd{color:#e9b411;font-size:40px;}
+.sixtitle dd a{display:inline-block;width:99px;height:27px;background:url(../images/more1.png) no-repeat center top;}
+.sixtitle dd a:hover{background:url(../images/more2.png) no-repeat center top;}
 .sixbox{width:654px;overflow:hidden;padding:40px 0 0 180px;background:url(../images/sixthbg1.png) no-repeat 80px 20px;}
 .sixbox li{float:left;width:174px;height:174px;overflow:hidden;margin:22px;_margin:22px 22px 22px 15px;}
 .sixbox li a{display:block;width:174px;height:174px;overflow:hidden;text-align:center;
@@ -204,6 +206,7 @@ color:#4b4b4b;font-size:17px;line-height:36px;font-weight:bold;}
 .leftnav li a{display:block;width:100%;overflow:hidden;color:#4b4b4b;font-size:12px;line-height:30px;}
 .leftnav li a:hover{color:#0095e4;}
 .leftnav li a:active{background:#ebebeb url(../images/icon6.jpg) no-repeat left top;color:#0095e4;}
+
 .leftnav li a.lcur{background:#ebebeb url(../images/icon6.jpg) no-repeat left top;}
 .lefttitle1{width:177px;overflow:hidden;border:1px solid #c8c8c8;text-align:center;border-top:0;
 border-bottom:0;height:28px;color:#fff;font-size:13px;line-height:28px;background:#0095e4;}
