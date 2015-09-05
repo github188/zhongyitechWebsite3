@@ -70,17 +70,17 @@ DD_belatedPNG.fix("*");
 	</div>
 </div>
 <div class="box">
-	<div class="location"><a href="index.html">中易科技</a>&gt;云数据中心监控解决方案</div>
+	<div class="location"><a href="index.html">中易科技</a>&gt;某省移动构建自营业务云平台</div>
 </div>
 <div class="box">
 	<div class="left">
 		<div class="lefttitle">解决方案</div>
 		<ul class="leftnav">
-			<li><a href="solution.html" class="lcur">云数据中心监控解决方案</a></li>
-			<li><a href="testcloud.html">开发测试云</a></li>
-			<li><a href="monitor.html">云数据中心监控解决方案</a></li>
-			<li><a href="bank.html">某股份制银行数据中心监控</a></li>
-			<li><a href="mycloud.html">某省移动构建自营业务云平台</a></li>
+			<li><a href="solution.html" >云数据中心监控解决方案</a></li>
+			<li><a href="testcloud.html" >开发测试云</a></li>
+			<li><a href="monitor.html" >云数据中心监控解决方案</a></li>
+			<li><a href="bank.html" >某股份制银行数据中心监控</a></li>
+			<li><a href="mycloud.html" class="lcur">某省移动构建自营业务云平台</a></li>
 			<li><a href="ipmp.html">集成产品管理平台</a></li>
 			<li><a href="fund.html">基金管理</a></li>
 			<li><a href="wifi.html">WIFI自动取号系统</a></li>
@@ -106,41 +106,31 @@ DD_belatedPNG.fix("*");
 	<div class="right">
 		<div class="mod18Box">
 			<div class="mod18">
-				<article id="content" class="article col-sm-9 col-md-8">
+<article id="content" class="article col-sm-9 col-md-8">
 
-					<h1>中易参与的某股份制银行数据中心监控</h1>
+					<h1>中易帮助某省移动构建自营业务云平台</h1>
 
-          <img src="counciltoolkit/images/article_images/bank2.png"/>
-          <h2 class="entry-title">客户挑战</h2>
+		            <img src="counciltoolkit/images/article_images/mycloud.png"/>
+		            <h2 class="entry-title"><a href="#!">解决方案概览</a></h2>
 
-          <p>
-            银行数据中心IT 基础设施越来越庞大，管理的复杂度不断增加，对故障响应和处理的实时性要求越来越高，
-						对关键性能指标KPI变化的掌控要求也越来越高。同时，管理扁平化趋势也越来越明显，
-						传统分专业和应急式的监控管理架构已不能适应越来越多用户的要求，需要有集中化、
-						端到端的覆盖整个企业域的总体监控管理解决方案
-          </p>
+		            <ul>
+		              <li>利用VMware构建的X86资源池，支持快速发展的自营业务</li>
+		              <li>利用Power VM建立的小机资源池，具有高可靠性和高可用性，满足核心基础设施的要求</li>
+		              <li>利用存储虚拟化技术屏蔽异构存储的复杂性，在异构物理资源的基础上提供了同构的逻辑资源，便于存储空间的快速扩展和简便管理</li>
+		              <li>多网合一的设计，采用IP网络和存储网络合二为一的先进FcoE技术，简化了网络连接，使集成工作的负责度降低，从而为系统向大规模扩展准备了条件</li>
+		              <li>与三类虚拟资源池高度集成，实现了资源发现、资源分配和资源配置的自动化过程，大大简化了系统管理工作，同时，与监控设备高度集成，具有了自我监控和管理的功能</li>
+		              <li>云平台门户提供了资源管理、用户管理和系统管理的统一界面，屏蔽了复杂的数据中心管理工作，为用户提供简洁易用的管理界面</li>
+		            </ul>
+			    <br>
+		            <h2 class="entry-title"><a href="#!">配置</a></h2>
+		            <ul>
+		              <li>X86服务器：X3650，X3850 M2，X3850</li>
+		              <li>小型机：P570</li>
+		              <li>存储虚拟化：SVC</li>
+		              <li>云管理平台：ISDM</li>
+		            </ul>
 
-
-
-					<h2 class="entry-title">实施范围</h2>
-
-			        <ul>
-			          <li>主机系统：AS/400、AIX、Windows2003、HP-UX、RedHat Linux、    SCO UNIXWARE</li>
-			          <li>中间件：Wesphere、Tomcat</li>
-			          <li>数据库：Sybase、DB2、Oracle</li>
-			          <li>存储： EMC DMX、CX系列、 IBM 8000系列、 HP EVA系列</li>
-			          <li>应用： AS/400应用、开放系统应用</li>
-			        </ul>
-
-
-			        <h2 class="entry-title">实施效果</h2>
-			        <img src="counciltoolkit/images/article_images/bank1.png"/>
-			        <ul>
-			        	<li>实现总行、深圳卡中心以及全国30家分行的IT资源的基础监控</li>
-			            <li>实现OpenMonitor监控平台在中信银行的全面推广使用</li>
-			            <li>实现银行总行应用系统集中监控</li>
-			        </ul>
-		        </article><!-- content -->
+				</article>
 			</div>
 		</div>
 	</div>

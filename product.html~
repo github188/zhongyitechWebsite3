@@ -30,7 +30,7 @@ DD_belatedPNG.fix("*");
 			<ul class="nav">
 				<li class="nav_li "><a href="index.html" >首页</a></li>
 				<li class="nav_li "><a href="#" >公司介绍</a></li>
-				<li class="nav_li cur"><a href="product.html" >代理产品</a>
+				<li class="nav_li cur"><a href="#" >代理产品</a>
 					<!-- <ul class="tool none">
 						<li ><a href="">ALM软件定制</a></li>
 						<li ><a href="">ALM咨询服务</a></li>

@@ -82,9 +82,9 @@ DD_belatedPNG.fix("*");
 			<li><a href="bank.html">某股份制银行数据中心监控</a></li>
 			<li><a href="mycloud.html">某省移动构建自营业务云平台</a></li>
 			<li><a href="ipmp.html">集成产品管理平台</a></li>
-			<li><a href="fund.html">基金管理</a></li>
-			<li><a href="wifi.html">WIFI自动取号系统</a></li>
-			<li><a href="zhubao.html">珠宝管理运营APP</a></li>
+			<li><a href="mycloud.html">基金管理</a></li>
+			<li><a href="mycloud.html">WIFI自动取号系统</a></li>
+			<li><a href="mycloud.html">珠宝管理运营APP</a></li>
 			<li><a href="rdelta.html">某公司ALM集成项目</a></li>
 		</ul>
 		<div class="lefttitle1">最新动态</div>

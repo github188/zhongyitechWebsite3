@@ -70,18 +70,18 @@ DD_belatedPNG.fix("*");
 	</div>
 </div>
 <div class="box">
-	<div class="location"><a href="index.html">中易科技</a>&gt;云数据中心监控解决方案</div>
+	<div class="location"><a href="index.html">中易科技</a>&gt;集成产品管理平台</div>
 </div>
 <div class="box">
 	<div class="left">
 		<div class="lefttitle">解决方案</div>
 		<ul class="leftnav">
-			<li><a href="solution.html" class="lcur">云数据中心监控解决方案</a></li>
-			<li><a href="testcloud.html">开发测试云</a></li>
-			<li><a href="monitor.html">云数据中心监控解决方案</a></li>
-			<li><a href="bank.html">某股份制银行数据中心监控</a></li>
-			<li><a href="mycloud.html">某省移动构建自营业务云平台</a></li>
-			<li><a href="ipmp.html">集成产品管理平台</a></li>
+			<li><a href="solution.html" >云数据中心监控解决方案</a></li>
+			<li><a href="testcloud.html" >开发测试云</a></li>
+			<li><a href="monitor.html" >云数据中心监控解决方案</a></li>
+			<li><a href="bank.html" >某股份制银行数据中心监控</a></li>
+			<li><a href="mycloud.html" >某省移动构建自营业务云平台</a></li>
+			<li><a href="ipmp.html" class="lcur">集成产品管理平台</a></li>
 			<li><a href="fund.html">基金管理</a></li>
 			<li><a href="wifi.html">WIFI自动取号系统</a></li>
 			<li><a href="zhubao.html">珠宝管理运营APP</a></li>
@@ -106,41 +106,32 @@ DD_belatedPNG.fix("*");
 	<div class="right">
 		<div class="mod18Box">
 			<div class="mod18">
-				<article id="content" class="article col-sm-9 col-md-8">
+<article id="content" class="article col-sm-9 col-md-8">
 
-					<h1>中易参与的某股份制银行数据中心监控</h1>
+					<h1>集成产品管理平台</h1>
 
-          <img src="counciltoolkit/images/article_images/bank2.png"/>
-          <h2 class="entry-title">客户挑战</h2>
+		            <h2 class="entry-title"><a href="#!">项目的需求和背景</a></h2>
+		            <p>深圳市汇川技术股份有限公司专注于工业自动化控制产品的研发、生产和销售，定位服务于中高端设备制造商，主要做变频器。
+		              随着公司的发展，扩展到十多个产品线了，每条产品线的运营流程逐渐成熟，以多部门协作为象征的工作模式正在形成，
+		              非常需要一套定制的流程管理去规范化每个产品线的流程；
+		              另外企业知识沉淀的系统不能满足现在的信息化需求，文档的检索，历史版本的查看，外网安全访问的问题促使企业内容管理的升级换代。
+		            </p>
+		            <h2 class="entry-title"><a href="#!">实施完的效果</a></h2>
+		            <p>做了12个产品线的流程定制，产品线之间的流程存在细微差别，可以个性化定制每个产品线流程，
+		              产品线运作过程中产生文档资料根据流程升级版本进行了版本控制，可以查看历史版本信息。
+		              可以有效管理资料文档，规范了管理流程，提升了工作效率，文档资料等资源得到了充分利用。
+		              为市场和销售人员提供便捷的产品信息管理功能，为市场销售拓展提供有力支撑。
+		            </p>
+		            <h2 class="entry-title"><a href="#!">实现方案和实施效果</a></h2>
+		            <img src="counciltoolkit/images/article_images/ipmp.png"/>
 
-          <p>
-            银行数据中心IT 基础设施越来越庞大，管理的复杂度不断增加，对故障响应和处理的实时性要求越来越高，
-						对关键性能指标KPI变化的掌控要求也越来越高。同时，管理扁平化趋势也越来越明显，
-						传统分专业和应急式的监控管理架构已不能适应越来越多用户的要求，需要有集中化、
-						端到端的覆盖整个企业域的总体监控管理解决方案
-          </p>
-
-
-
-					<h2 class="entry-title">实施范围</h2>
-
-			        <ul>
-			          <li>主机系统：AS/400、AIX、Windows2003、HP-UX、RedHat Linux、    SCO UNIXWARE</li>
-			          <li>中间件：Wesphere、Tomcat</li>
-			          <li>数据库：Sybase、DB2、Oracle</li>
-			          <li>存储： EMC DMX、CX系列、 IBM 8000系列、 HP EVA系列</li>
-			          <li>应用： AS/400应用、开放系统应用</li>
-			        </ul>
-
-
-			        <h2 class="entry-title">实施效果</h2>
-			        <img src="counciltoolkit/images/article_images/bank1.png"/>
-			        <ul>
-			        	<li>实现总行、深圳卡中心以及全国30家分行的IT资源的基础监控</li>
-			            <li>实现OpenMonitor监控平台在中信银行的全面推广使用</li>
-			            <li>实现银行总行应用系统集中监控</li>
-			        </ul>
-		        </article><!-- content -->
+		            <p>
+		              采用JackRabbit框架实现内容管理，使用Activiti工作流引擎，框架采用grails快速开发，中间件使用tomcat。
+		              项目在流程设计花的时间比较多，用户对流程自定义和流程中字段变化倒没有太多要求，反而对流程节点的任意回退，以及权限的灵活控制要求很高。
+		              业内标准的activiti本身的功能并没有很好的体现出来，因此项目过程中花在集成/修改/调试activiti的时间是不值的的。当然项目也是有收获的，在使用了
+		              activiti后，了解他的设计理念，我们也能自己设计精简的流程控制。
+		            </p>
+		        </article>
 			</div>
 		</div>
 	</div>

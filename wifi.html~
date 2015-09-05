@@ -70,20 +70,20 @@ DD_belatedPNG.fix("*");
 	</div>
 </div>
 <div class="box">
-	<div class="location"><a href="index.html">中易科技</a>&gt;云数据中心监控解决方案</div>
+	<div class="location"><a href="index.html">中易科技</a>&gt;WIFI自动取号系统</div>
 </div>
 <div class="box">
 	<div class="left">
 		<div class="lefttitle">解决方案</div>
 		<ul class="leftnav">
-			<li><a href="solution.html" class="lcur">云数据中心监控解决方案</a></li>
-			<li><a href="testcloud.html">开发测试云</a></li>
-			<li><a href="monitor.html">云数据中心监控解决方案</a></li>
-			<li><a href="bank.html">某股份制银行数据中心监控</a></li>
-			<li><a href="mycloud.html">某省移动构建自营业务云平台</a></li>
-			<li><a href="ipmp.html">集成产品管理平台</a></li>
+			<li><a href="solution.html" >云数据中心监控解决方案</a></li>
+			<li><a href="testcloud.html" >开发测试云</a></li>
+			<li><a href="monitor.html" >云数据中心监控解决方案</a></li>
+			<li><a href="bank.html" >某股份制银行数据中心监控</a></li>
+			<li><a href="mycloud.html" >某省移动构建自营业务云平台</a></li>
+			<li><a href="ipmp.html" >集成产品管理平台</a></li>
 			<li><a href="fund.html">基金管理</a></li>
-			<li><a href="wifi.html">WIFI自动取号系统</a></li>
+			<li><a href="wifi.html" class="lcur">WIFI自动取号系统</a></li>
 			<li><a href="zhubao.html">珠宝管理运营APP</a></li>
 			<li><a href="rdelta.html">某公司ALM集成项目</a></li>
 		</ul>
@@ -106,41 +106,42 @@ DD_belatedPNG.fix("*");
 	<div class="right">
 		<div class="mod18Box">
 			<div class="mod18">
-				<article id="content" class="article col-sm-9 col-md-8">
+<article id="content" class="article col-sm-9 col-md-8">
 
-					<h1>中易参与的某股份制银行数据中心监控</h1>
+					<h1>深圳会展中心WIFI自动取号系统</h1>
 
-          <img src="counciltoolkit/images/article_images/bank2.png"/>
-          <h2 class="entry-title">客户挑战</h2>
+		            <h2 class="entry-title"><a href="#!">项目的需求和背景</a></h2>
+		            <p>随着无线网络的发展，原中国电信在会展中心建设的无线WIFI网络已经超过8年，设备已无法正常使用，
+		              在使用过程中无法满足展会的需求，长期处于闲置状态，为做好会展中心与中国电信长期友好合作事宜，
+		              希望对会展中心的无线WIFI网络进行改造及完善覆盖区域，满足展商，参观人员及媒体等对无线WIFI网络的需求，
+		              提高无线WIFI的网络利用率，提升中国电信及会展中心的服务质量，树立优质高效的服务形象。
+		            </p>
+		            <h2 class="entry-title"><a href="#!">实施完的效果</a></h2>
+		            <p>手机自助上网：在WiFi终端选择名为SZCEC（free）的SSID，
+		              打开浏览器在登录页面用户名一栏输入手机号码（用户名为手机号码），点击短信获取密码，
+		              密码将以短信方式发送到指定手机。
+		            </p>
+		            <p>POS终端自助上网：用户使用二代身份证、带一、二维条码的参展商证或工作证到WiFi自组取号机获取帐号。
+		            </p>
+		            <h2 class="entry-title"><a href="#!">实现方案和实施效果</a></h2>
+		            <img src="../counciltoolkit/images/article_images/wifi.png"/>
 
-          <p>
-            银行数据中心IT 基础设施越来越庞大，管理的复杂度不断增加，对故障响应和处理的实时性要求越来越高，
-						对关键性能指标KPI变化的掌控要求也越来越高。同时，管理扁平化趋势也越来越明显，
-						传统分专业和应急式的监控管理架构已不能适应越来越多用户的要求，需要有集中化、
-						端到端的覆盖整个企业域的总体监控管理解决方案
-          </p>
-
-
-
-					<h2 class="entry-title">实施范围</h2>
-
-			        <ul>
-			          <li>主机系统：AS/400、AIX、Windows2003、HP-UX、RedHat Linux、    SCO UNIXWARE</li>
-			          <li>中间件：Wesphere、Tomcat</li>
-			          <li>数据库：Sybase、DB2、Oracle</li>
-			          <li>存储： EMC DMX、CX系列、 IBM 8000系列、 HP EVA系列</li>
-			          <li>应用： AS/400应用、开放系统应用</li>
-			        </ul>
-
-
-			        <h2 class="entry-title">实施效果</h2>
-			        <img src="counciltoolkit/images/article_images/bank1.png"/>
-			        <ul>
-			        	<li>实现总行、深圳卡中心以及全国30家分行的IT资源的基础监控</li>
-			            <li>实现OpenMonitor监控平台在中信银行的全面推广使用</li>
-			            <li>实现银行总行应用系统集中监控</li>
-			        </ul>
-		        </article><!-- content -->
+		            <p>
+		              用户输入账号密码后，点认证，IE把HTTP POST请求发给PORTAL SERVER，PORTAL SERVER收到帐号密码后进行预认证，
+		              此时会查询一次数据库，根据查询结果判断帐号是否已经绑定，如果未绑定则进入绑定流程，
+		              如果已绑定则向BAS发起认证，此认证过程为PORTAL协议，BAS收到UDP报文后，
+		              把相关信息如帐号、密码、用户IP、NAS IP等通过RADIUS协议发送给RADIUS服务器，
+		              RADIUS SERVER收到认证请求后对帐号进行认证，此时会查询一次用户表数据，
+		              如果认证成功则还需要查询一次在线表，判断用户是否已经在线，未在线则写入一次在线表记录，并返回认证结果；
+		              如果帐号是不可用的，则不会查询在线表，直接返回认证失败结果给BAS；
+		              BAS收到认证结果后返回认证结果给PORTAL SERVER，PORTAL SERVER收到认证结果后，
+		              根据认证结果返回不同的提示信息给用户，并且转到认证成功界面，完成整个认证过程。
+		            </p>
+		            <p>
+		            已安装10台自助刷卡服务终端，通过该终端完成用户身份认证与存储，自动打印接入WIFI的密码，极大提高了展会接入互联网的便利性。
+		            </p>
+		            <img src="../counciltoolkit/images/article_images/wifi2.png"/>
+		        </article>
 			</div>
 		</div>
 	</div>

@@ -70,21 +70,21 @@ DD_belatedPNG.fix("*");
 	</div>
 </div>
 <div class="box">
-	<div class="location"><a href="index.html">中易科技</a>&gt;云数据中心监控解决方案</div>
+	<div class="location"><a href="index.html">中易科技</a>&gt;开发测试云</div>
 </div>
 <div class="box">
 	<div class="left">
 		<div class="lefttitle">解决方案</div>
 		<ul class="leftnav">
-			<li><a href="solution.html" class="lcur">云数据中心监控解决方案</a></li>
-			<li><a href="testcloud.html">开发测试云</a></li>
+			<li><a href="solution.html" >云数据中心监控解决方案</a></li>
+			<li><a href="testcloud.html" class="lcur">开发测试云</a></li>
 			<li><a href="monitor.html">云数据中心监控解决方案</a></li>
 			<li><a href="bank.html">某股份制银行数据中心监控</a></li>
 			<li><a href="mycloud.html">某省移动构建自营业务云平台</a></li>
 			<li><a href="ipmp.html">集成产品管理平台</a></li>
-			<li><a href="fund.html">基金管理</a></li>
-			<li><a href="wifi.html">WIFI自动取号系统</a></li>
-			<li><a href="zhubao.html">珠宝管理运营APP</a></li>
+			<li><a href="mycloud.html">基金管理</a></li>
+			<li><a href="mycloud.html">WIFI自动取号系统</a></li>
+			<li><a href="mycloud.html">珠宝管理运营APP</a></li>
 			<li><a href="rdelta.html">某公司ALM集成项目</a></li>
 		</ul>
 		<div class="lefttitle1">最新动态</div>
@@ -108,39 +108,26 @@ DD_belatedPNG.fix("*");
 			<div class="mod18">
 				<article id="content" class="article col-sm-9 col-md-8">
 
-					<h1>中易参与的某股份制银行数据中心监控</h1>
+					<h1>中易参与的华为2012研发测试云</h1>
 
-          <img src="counciltoolkit/images/article_images/bank2.png"/>
-          <h2 class="entry-title">客户挑战</h2>
+		            <img src="counciltoolkit/images/article_images/testcloud.png"/>
+		            <h2 class="entry-title">项目概览</h2>
 
-          <p>
-            银行数据中心IT 基础设施越来越庞大，管理的复杂度不断增加，对故障响应和处理的实时性要求越来越高，
-						对关键性能指标KPI变化的掌控要求也越来越高。同时，管理扁平化趋势也越来越明显，
-						传统分专业和应急式的监控管理架构已不能适应越来越多用户的要求，需要有集中化、
-						端到端的覆盖整个企业域的总体监控管理解决方案
-          </p>
+		            <p>
+		              传统行业的不传统信息交流模式的改变，带来全新的总公司与分店的信息交流方式，进而使得沟通更加便捷。客户希望通过该项目，增强货品信息动态的机动性，更加增强管理与运营的相关便捷性。
+		            </p>
+		            <p>
+		              开发测试云的用户可以用过自助服务门户访问DevCloud提供的各项功能并通过ALM完成软件生命周期管理中的各项工作任务
+		            </p>
 
+		            <h2 class="entry-title">Why 中易</h2>
+		            <p>
+		              中易是目前国内最大的软件工程领域的综合服务供应商，在ALM领域与华为研发团队保持长期的合作</p>
+		            <p>
+		              中易拥有一支经过VMWare、Mirantis专业培训和认证的专业化服务团队，建设和运营了超过10个1000节点以上的云数据中心，具有丰富的交付和管理经验
+		            </p>
 
-
-					<h2 class="entry-title">实施范围</h2>
-
-			        <ul>
-			          <li>主机系统：AS/400、AIX、Windows2003、HP-UX、RedHat Linux、    SCO UNIXWARE</li>
-			          <li>中间件：Wesphere、Tomcat</li>
-			          <li>数据库：Sybase、DB2、Oracle</li>
-			          <li>存储： EMC DMX、CX系列、 IBM 8000系列、 HP EVA系列</li>
-			          <li>应用： AS/400应用、开放系统应用</li>
-			        </ul>
-
-
-			        <h2 class="entry-title">实施效果</h2>
-			        <img src="counciltoolkit/images/article_images/bank1.png"/>
-			        <ul>
-			        	<li>实现总行、深圳卡中心以及全国30家分行的IT资源的基础监控</li>
-			            <li>实现OpenMonitor监控平台在中信银行的全面推广使用</li>
-			            <li>实现银行总行应用系统集中监控</li>
-			        </ul>
-		        </article><!-- content -->
+				</article>
 			</div>
 		</div>
 	</div>

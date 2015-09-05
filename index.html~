@@ -43,7 +43,7 @@ DD_belatedPNG.fix("*");
 					</ul> -->
 				</li>
 
-				<li class="nav_li "><a href="solution.html" >解决方案</a>
+				<li class="nav_li "><a href="#" >解决方案</a>
 					<!-- <ul class="tool none tool1">
 						<li ><a href="">汇川IPMP集成产品管理平台</a></li>
 						<li ><a href="">金赛银基金管理项目</a></li>
